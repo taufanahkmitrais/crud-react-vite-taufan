@@ -1,0 +1,17 @@
+everything starts from main.tsx, it can render App.tsx
+App.tsx is the single page application, it contains imported tsx components that exist
+you can make TodoList.tsx component to make a todolist.
+you have to register your component to app.tsx
+you can register your css to main.tsx by importing it.
+
+todolist.tsx -> app.tsx -> main.tsx -> render
+
+
+you can make using this syntax
+export const QliphortDisk: React.FC = () => { return(<h1>This is Disk</h1>);}
+
+const Sharingan = () => ( <h2> Sharingan is for Uchiha only</h2> );
+
+export default Sharingan;
+
+git add . && git commit -m "add_new_component_for_learning_syntaxes" && git push

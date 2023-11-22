@@ -5,6 +5,7 @@ interface item{
   text: string;
   completed: boolean;
 }
+// with interface, we can decide what kind of input we accept
 
 export const TodoList: React.FC = () => {
   const [todos, setTodos] = useState<item[]> ([
@@ -37,7 +38,7 @@ export const TodoList: React.FC = () => {
 
   return (
     <div className="main-container">
-      <h1> Todo Aoi </h1>
+      <h1> Todo LIST </h1>
       <ul>
         { todos.map((todo) => (
           <li key={todo.id} onClick={() => handleToggle(todo.id)} style={{textDecoration: todo.completed ? "line-through" : "none"}} >
