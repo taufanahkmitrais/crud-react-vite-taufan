@@ -14,4 +14,4 @@ const Sharingan = () => ( <h2> Sharingan is for Uchiha only</h2> );
 
 export default Sharingan;
 
-git add . && git commit -m "add_new_component_for_learning_syntaxes" && git push
+git add . && git commit -m "add_crud_with_mock_api" && git push

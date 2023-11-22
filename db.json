@@ -1,0 +1,49 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Chaos Maxxxxx C",
+      "completed": true
+    },
+    {
+      "title": "Acidisi",
+      "completed": true,
+      "id": 2
+    },
+    {
+      "title": "Maxx E",
+      "completed": true,
+      "id": 3
+    },
+    {
+      "title": "Blue-Eyes",
+      "completed": true,
+      "id": 5
+    },
+    {
+      "title": "Dark-Magician",
+      "completed": true,
+      "id": 6
+    },
+    {
+      "title": "Pendulum-Magician",
+      "completed": true,
+      "id": 7
+    },
+    {
+      "title": "Skullcrobat Joker",
+      "completed": true,
+      "id": 8
+    },
+    {
+      "title": "Monkeyboard",
+      "completed": true,
+      "id": 9
+    },
+    {
+      "title": "mumun",
+      "completed": true,
+      "id": 10
+    }
+  ]
+}
