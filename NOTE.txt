@@ -1,3 +1,5 @@
+https://ethan-dev.com/post/building-a-todo-crud-app-with-react-typescript-vite-and-chakra-ui
+
 everything starts from main.tsx, it can render App.tsx
 App.tsx is the single page application, it contains imported tsx components that exist
 you can make TodoList.tsx component to make a todolist.
@@ -13,5 +15,24 @@ export const QliphortDisk: React.FC = () => { return(<h1>This is Disk</h1>);}
 const Sharingan = () => ( <h2> Sharingan is for Uchiha only</h2> );
 
 export default Sharingan;
+discussing the code and the best practice and figuring out how can we apply our project to meet the PNI criteria
 
-git add . && git commit -m "add_crud_with_mock_api" && git push
+after pull, yarn install
+
+yarn test my-component.test --coverage --collectCoverageFrom=src/components/my-component/my-component.tsx
+yarn test Location.test --coverage --collectCoverageFrom=src/pages/Location.tsx
+npm run test -- -u
+yarn format // lintern set
+
+mvn clean install
+mvn spring-boot:run
+
+src\main\java\cdc\purplehr\controller\LocationController.java(under RequestMapping)
+@CrossOrigin(origins = "http://localhost:5173")
+
+src\main\resources\application.yaml
+url: jdbc:postgresql://172.19.14.39:5432/postgres
+username: postgres
+password: postgres123
+
+git add . && git commit -m "add note and java note" && git push
