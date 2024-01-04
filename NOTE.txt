@@ -18,14 +18,18 @@ export default Sharingan;
 discussing the code and the best practice and figuring out how can we apply our project to meet the PNI criteria
 
 after pull, yarn install
-
+use this before testing selected file:
+yarn test:coverage
 yarn test my-component.test --coverage --collectCoverageFrom=src/components/my-component/my-component.tsx
+yarn test Location.test --coverage --collectCoverageFrom=src/components/Location/Location.tsx
+
 yarn test Location.test --coverage --collectCoverageFrom=src/pages/Location.tsx
 npm run test -- -u
 yarn format // lintern set
+yarn lint // lintern checker
 
-mvn clean install
-mvn spring-boot:run
+mvn clean install -DskipTests
+mvn spring-boot:run -DskipTests
 
 src\main\java\cdc\purplehr\controller\LocationController.java(under RequestMapping)
 @CrossOrigin(origins = "http://localhost:5173")
@@ -35,4 +39,29 @@ url: jdbc:postgresql://172.19.14.39:5432/postgres
 username: postgres
 password: postgres123
 
+ACTIVATE VPN FIRST
+
+it("should call debouncedList after a delay", async () => {
+    jest.useFakeTimers();
+ 
+    (getEmployeeService as jest.Mock).mockResolvedValue({ data: mockData, currentPage: 1, perPage: "10", totalPage: "1" })
+    render(<EmployeeManagement />)
+ 
+    const searchInput = screen.getByPlaceholderText("Search");
+    fireEvent.change(searchInput, { target: { value: "John Doe" } });
+   
+    jest.advanceTimersByTime(1000);
+   
+    expect(getEmployeeService).toHaveBeenCalledTimes(2);
+  });
+
+
+pre value ambil step terbaru
+setPramater(prevValue => {
+  ...prevValue
+})
+
+ambil coverage dari file coverage\lcov-report\index.html
+
 git add . && git commit -m "add note and java note" && git push
+ 
