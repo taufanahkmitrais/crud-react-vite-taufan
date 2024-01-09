@@ -1,64 +1,24 @@
 {
   "todos": [
     {
-      "id": 1,
-      "title": "Chaos Maxxxxx C",
-      "completed": true
+      "id": "c279",
+      "title": "tugas matematika",
+      "completed": false
     },
     {
-      "title": "Acidisi",
-      "completed": true,
-      "id": 2
+      "id": "a332",
+      "title": "mengubah segalanya",
+      "completed": false
     },
     {
-      "title": "Maxx E",
-      "completed": true,
-      "id": 3
+      "id": "35cc",
+      "title": "makan minum",
+      "completed": false
     },
     {
-      "title": "Blue-Eyes",
-      "completed": true,
-      "id": 5
-    },
-    {
-      "title": "Dark-Magician",
-      "completed": true,
-      "id": 6
-    },
-    {
-      "title": "Pendulum-Magician",
-      "completed": true,
-      "id": 7
-    },
-    {
-      "title": "Skullcrobat Joker",
-      "completed": true,
-      "id": 8
-    },
-    {
-      "title": "Monkeyboard",
-      "completed": true,
-      "id": 9
-    },
-    {
-      "title": "mumun",
-      "completed": true,
-      "id": 10
-    },
-    {
-      "title": "todokanaiyo",
-      "completed": true,
-      "id": 11
-    },
-    {
-      "title": "abcd",
-      "completed": true,
-      "id": 13
-    },
-    {
-      "title": "Gocku Kamehame",
-      "completed": true,
-      "id": 14
+      "id": "d657",
+      "title": "tambah lagi",
+      "completed": false
     }
   ]
 }

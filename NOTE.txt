@@ -28,40 +28,5 @@ npm run test -- -u
 yarn format // lintern set
 yarn lint // lintern checker
 
-mvn clean install -DskipTests
-mvn spring-boot:run -DskipTests
-
-src\main\java\cdc\purplehr\controller\LocationController.java(under RequestMapping)
-@CrossOrigin(origins = "http://localhost:5173")
-
-src\main\resources\application.yaml
-url: jdbc:postgresql://172.19.14.39:5432/postgres
-username: postgres
-password: postgres123
-
-ACTIVATE VPN FIRST
-
-it("should call debouncedList after a delay", async () => {
-    jest.useFakeTimers();
- 
-    (getEmployeeService as jest.Mock).mockResolvedValue({ data: mockData, currentPage: 1, perPage: "10", totalPage: "1" })
-    render(<EmployeeManagement />)
- 
-    const searchInput = screen.getByPlaceholderText("Search");
-    fireEvent.change(searchInput, { target: { value: "John Doe" } });
-   
-    jest.advanceTimersByTime(1000);
-   
-    expect(getEmployeeService).toHaveBeenCalledTimes(2);
-  });
-
-
-pre value ambil step terbaru
-setPramater(prevValue => {
-  ...prevValue
-})
-
-ambil coverage dari file coverage\lcov-report\index.html
-
-git add . && git commit -m "add note and java note" && git push
+git add . && git commit -m "fix errors nvm" && git push
  

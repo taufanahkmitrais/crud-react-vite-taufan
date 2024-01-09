@@ -1,0 +1,11 @@
+1. install gitbash terminal windows yang berbasis linux DONE
+2. install nvm untuk versioning node DONE
+3. install node DONE
+4. install react di gitbash 
+source ~/.nvm/nvm.sh
+npm install -g create-react-app
+npm install --global yarn
+
+run the mock
+npx json-server --watch db.json --port 5000
+npx json-server db.json --port 5000
